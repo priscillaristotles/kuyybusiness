@@ -140,7 +140,7 @@ Posts go out daily from Mon 28 Sep to Tue 27 Oct 2026. Odd posts are **mist** an
 | column heads | PUBLIC RATE · KUYY! |
 | row 1 | Per payment · Rp 13,000 · Rp 2,500 |
 | row 2 | 50 a month · Rp 650,000 · Rp 125,000 |
-| row 3 | 12 months · Rp 7,800,000 · Rp 1,500,000 |
+| row 3 | 12 months · Rp 7.8M · Rp 1.5M |
 | total row | Kept a year · +Rp 6.3M |
 | source line (2) | Source: Xendit public bank VA rate, [month year]. / Kuyy! Business bank VA fee, Sep 2026. |
 
@@ -152,7 +152,7 @@ Posts go out daily from Mon 28 Sep to Tue 27 Oct 2026. Odd posts are **mist** an
 | column heads | PUBLIC RATE · KUYY! |
 | row 1 | Per payment · Rp 11,500 · Rp 7,000 |
 | row 2 | 50 a month · Rp 575,000 · Rp 350,000 |
-| row 3 | 12 months · Rp 6,900,000 · Rp 4,200,000 |
+| row 3 | 12 months · Rp 6.9M · Rp 4.2M |
 | total row | Kept a year · +Rp 2.7M |
 | source line (2) | Source: Xendit public e-wallet rate, 2.5% + Rp 4,000, / [month year]. Kuyy! e-wallet fee, Sep 2026. |
 
@@ -171,7 +171,7 @@ The working: bank VA 13,000 − 2,500 = 10,500 × 600 payments = 6,300,000. E-wa
 
 **Caption:** Fees on 50 bank transfers and 50 e-wallet payments, worked out. Start free trial at business.kuyy.id #kuyybusiness
 
-*Why:* the column is labelled "public rate", not "typical". Studios on other tools may pay negotiated rates below Xendit's list price, so "typical" would overclaim. There are no card or instalment rows because we have no fee claim there. The 50-payment volume keeps every figure at or under 12 characters so it fits the ledger cell.
+*Why:* the column is labelled "public rate", not "typical". Studios on other tools may pay negotiated rates below Xendit's list price, so "typical" would overclaim. There are no card or instalment rows because we have no fee claim there. The 12-month row uses Rp M notation (as the design-system sample does) so it fits the ledger cell.
 
 ---
 
