@@ -185,7 +185,7 @@ def demo_ticket(p):
 <div class="t-label c-blue">{e(p["label"])}</div>
 <div class="t-title" style="font-size:80px;margin-top:30px">{lines(p["title"])}</div>
 <div class="t-body c-soft" style="margin-top:34px;width:520px">{lines(p["body"])}</div>
-<div class="abs" style="left:64px;bottom:72px"><span class="pill">Book a demo {arrow}</span></div>
+<div class="abs" style="left:64px;bottom:72px"><span class="pill">{e(p.get("pill", "Book a demo"))} {arrow}</span></div>
 <div class="abs" style="left:630px;top:44px;bottom:44px;border-left:4px dashed #d5dce8"></div>
 <div class="abs" style="left:671px;top:250px;width:208px">
 <div class="qr" style="width:208px;height:208px">QR</div>

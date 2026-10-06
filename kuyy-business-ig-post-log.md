@@ -2,19 +2,19 @@
 
 One line per post: date · layout · type · ground · topic · status. The next post takes the opposite ground to the last line. Status `planned` means scheduled, not published; change it to `posted` on the day it goes out.
 
-- 28 Sep 2026 · FounderNote · single · mist · #01 Behind Kuyy!: why a studio owner helped build this · planned (draft, needs approval + photo)
+- 28 Sep 2026 · FounderNote · single · mist · #01 FounderNote: another studio founder (why they started) · planned (hold: founder, photo, written OK)
 - 29 Sep 2026 · BigNumber · single · blue · #02 300,000+ registered users · planned (ready)
 - 30 Sep 2026 · PriceSheet · single · mist · #03 Two plans, prices in full · planned (ready, confirm prices)
 - 01 Oct 2026 · The math · carousel 4 · blue · #04 Bank VA + e-wallet fees · planned (hold: fee payer + Xendit rate re-check)
-- 02 Oct 2026 · Studio case · carousel 4 · mist · #05 Case 01 Samasta Aerial · planned (hold: data + permission)
+- 02 Oct 2026 · Studio case · carousel 4 · mist · #05 Case 01: a studio other than Samasta · planned (hold: studio + data)
 - 03 Oct 2026 · ProductScreen · single · blue · #06 Dashboard overview · planned (hold: screenshot)
-- 04 Oct 2026 · FounderNote · single · mist · #07 Built for Indonesian studios · planned (draft, needs approval + photo)
+- 04 Oct 2026 · FounderNote · single · mist · #07 FounderNote: another studio founder (the hard part) · planned (hold: founder, photo, written OK)
 - 05 Oct 2026 · BigNumber · single · blue · #08 4,000+ communities · planned (ready)
 - 06 Oct 2026 · PriceSheet · single · mist · #09 Yearly prices · planned (ready, confirm prices)
 - 07 Oct 2026 · The math · carousel 3 · blue · #10 How the free month works · planned (ready, confirm 12-for-10)
 - 08 Oct 2026 · Studio case · carousel 4 · mist · #11 Case 02 pilates · planned (hold: studio + data)
 - 09 Oct 2026 · ProductScreen · single · blue · #12 Auto-verified payments · planned (hold: screenshot)
-- 10 Oct 2026 · FounderNote · single · mist · #13 7 branches, one system · planned (draft, needs approval + photo)
+- 10 Oct 2026 · FounderNote · single · mist · #13 FounderNote: another studio founder (advice) · planned (hold: founder, photo, written OK)
 - 11 Oct 2026 · BigNumber · single · blue · #14 400,000+ activities · planned (ready)
 - 12 Oct 2026 · PriceSheet · single · mist · #15 What each plan adds · planned (ready, confirm prices)
 - 13 Oct 2026 · The math · carousel 3 · blue · #16 Hours lost to transfer checks · planned (ready)

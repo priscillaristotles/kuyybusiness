@@ -274,3 +274,34 @@ POSTS = [
   "caption": "Members choose their reformer or bike when they book. Book a demo at business.kuyy.id #kuyybusiness",
   "check": "HOLD: real screenshot of the seating plan. Keep 'No double-booking' only if the screen shows it; else use 'Recurring class'."},
 ]
+
+
+# ---- Revision, Oct 2026: Priscilla's story moves to pinned post 2 (the brand story).
+# The feed's founder notes now feature other studio founders, and case 01 is no longer Samasta.
+
+def other_founder(n, date, angle, label, ask, caption_topic):
+    return {"n": n, "date": date, "ground": "mist", "name": f"FounderNote · studio founder · {angle}", "hold": True,
+            "slides": [("FounderNote", {"label": label,
+                "note": ["[Their words,", "2 sentences or", "fewer, approved", "by them.]"],
+                "name": "[Founder name]", "role": ["FOUNDER,", "[STUDIO], [CITY]"],
+                "photo": "Photo · the founder at their studio"})],
+            "caption": f"[Founder] of [Studio], [city], on {caption_topic}. Shared with permission. Book a demo at business.kuyy.id #kuyybusiness",
+            "check": f"HOLD: a studio founder on Kuyy! Business, their photo and their written OK. Ask: {ask}"}
+
+_REVISED = {
+ 1: other_founder(1, "Mon 28 Sep", "why they started", ["From a studio", "founder on Kuyy!"],
+                  "why did you start your studio?", "why they started their studio"),
+ 5: {"n": 5, "date": "Fri 02 Oct", "ground": "mist", "name": "Studio case 01 · [studio]", "hold": True,
+     "slides": case(1, ["[Studio] [result]", "[result, cont.]", "in [time span]."],
+        [("TYPE", "[Vertical]"), ("CITY", "[City]"), ("ON KUYY! SINCE", "[Mon YYYY]")], "Photo · the studio in use",
+        "[unit, same on both cards]", ["[Why it changed,", "in 2 short lines.]"],
+        ["[Studio]'s own booking data, [months].", "Shared with permission."],
+        "FOUNDER · [STUDIO]", "On Kuyy! Business since [Mon YYYY].", "Photo · the founder", DEMO),
+     "caption": "[Studio], [city]: [result in one line]. Shared with permission by [Studio]. Book a demo at business.kuyy.id #kuyybusiness",
+     "check": "HOLD: a studio other than Samasta (Samasta's story is pinned post 2). One metric with written OK, a photo, a founder quote."},
+ 7: other_founder(7, "Sun 04 Oct", "the hard part", ["From a studio", "founder on Kuyy!"],
+                  "what is the hardest part of running your studio week to week?", "the hardest part of running a studio"),
+ 13: other_founder(13, "Sat 10 Oct", "advice", ["From a studio", "founder on Kuyy!"],
+                   "what would you tell someone opening their first studio?", "what they'd tell a first-time owner"),
+}
+POSTS = [_REVISED.get(p["n"], p) for p in POSTS]

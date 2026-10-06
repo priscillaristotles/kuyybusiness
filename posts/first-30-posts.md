@@ -6,6 +6,17 @@ Every post uses one of the 12 locked layouts. Only the words and pictures change
 
 ---
 
+## Revision, Oct 2026: founder story moved to the pinned row
+
+Priscilla's story is now **pinned post 2** (a Studio case carousel about Samasta Aerial: 1 to 7 branches, why she helped build Kuyy! Business). To avoid telling it twice, the feed changed:
+
+- **01, 07, 13** (FounderNote) now feature **other studio founders**, not Priscilla. Interview angles: 01 why they started, 07 the hardest part week to week, 13 advice to a first-time owner. All three are on HOLD until a founder agrees, with a photo and written OK.
+- **05** (Studio case 01) is no longer Samasta. It is a blank case brief like 11, 17, 23 and 29.
+
+The slot copy for those four posts below is superseded; the canvas holds the current version.
+
+---
+
 ## Read this before you post anything
 
 **1. Anything marked 🔒 HOLD can't go out yet.** 9 of the 30 posts need real data, real photos or a fact confirmed first. The "Blockers" section at the end lists each one and who has to supply it.
