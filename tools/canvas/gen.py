@@ -258,7 +258,7 @@ VARS = (":root{--blue:#0054db;--blue-deep:#003fa8;--mist:#f2f5fa;--sky:#e6eefb;-
         "--ink:#0a0e1a;--ink-soft:#4a5060;--rule:#d5dce8;--font-sans:\"DM Sans\",system-ui,sans-serif;"
         "--font-mono:\"DM Mono\",ui-monospace,monospace}")
 
-def page(title, ground, body):
+def page(title, ground, body, w=1080, h=1350):
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -277,11 +277,11 @@ body{{margin:0}}
 {VARS}
 </style>
 </helmet>
-<div class="kb-slide g-{ground}" style="width:1080px;height:1350px;font-family:'DM Sans',system-ui,sans-serif">
+<div class="kb-slide g-{ground}" style="width:{w}px;height:{h}px;font-family:'DM Sans',system-ui,sans-serif">
 {body}
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{{"$preview":{{"width":1080,"height":1350}}}}'>
+<script type="text/x-dc" data-dc-script data-props='{{"$preview":{{"width":{w},"height":{h}}}}}'>
 class Component extends DCLogic {{
   renderVals() {{ return {{}}; }}
 }}
@@ -290,45 +290,50 @@ class Component extends DCLogic {{
 </html>
 '''
 
-from posts import POSTS
+def main():
+    from posts import POSTS
 
-W, H, GAP, ROWGAP, TITLE = 1080, 1350, 80, 120, 300
-boards, order, notes = {}, [], {}
-pages = [{"id": "p1", "name": "Posts 01–10"}, {"id": "p2", "name": "Posts 11–20"}, {"id": "p3", "name": "Posts 21–30"}]
-count = 0
-for post in POSTS:
-    n = post["n"]
-    pg = pages[(n - 1) // 10]["id"]
-    row = (n - 1) % 10
-    y = row * (H + ROWGAP + TITLE) + TITLE
-    nslides = len(post["slides"])
-    for i, (layout, data) in enumerate(post["slides"]):
-        ground, body = LAYOUTS[layout](data)
-        assert ground == post["ground"], (n, layout)
-        name = "Main.dc.html" if (n == 1 and i == 0) else f"p{n:02d}-{i+1}-{layout.lower()}.dc.html"
-        stitle = f"{n:02d} · slide {i+1} · {layout}" if nslides > 1 else f"{n:02d} · {layout}"
-        with open(os.path.join(PROJ, name), "w") as f:
-            f.write(page(stitle, ground, body))
-        boards[name] = {"x": i * (W + GAP), "y": y, "w": W, "h": H, "title": stitle, "page": pg}
-        order.append(name)
-        count += 1
-    kind = "carousel" if nslides > 1 else "single"
-    hold = "  ·  HOLD" if post.get("hold") else ""
-    notes[f"t{n:02d}"] = {"x": 0, "y": y - 250, "text": f"{n:02d} · {post['date']} · {post['name']} · {post['ground']} {kind}{hold}",
-                          "kind": "title1", "maxW": 4 * W + 3 * GAP, "page": pg}
-    sx = nslides * (W + GAP)
-    notes[f"c{n:02d}"] = {"x": sx, "y": y, "w": 760, "maxH": 1300, "page": pg,
-                          "fill": "orange" if post.get("hold") else "yellow" if False else "green",
-                          "size": "l",
-                          "text": "CAPTION\n" + post["caption"] + ("\n\nBEFORE POSTING\n" + post["check"] if post.get("check") else "")}
+    W, H, GAP, ROWGAP, TITLE = 1080, 1350, 80, 120, 300
+    boards, order, notes = {}, [], {}
+    pages = [{"id": "p1", "name": "Posts 01–10"}, {"id": "p2", "name": "Posts 11–20"}, {"id": "p3", "name": "Posts 21–30"}]
+    count = 0
+    for post in POSTS:
+        n = post["n"]
+        pg = pages[(n - 1) // 10]["id"]
+        row = (n - 1) % 10
+        y = row * (H + ROWGAP + TITLE) + TITLE
+        nslides = len(post["slides"])
+        for i, (layout, data) in enumerate(post["slides"]):
+            ground, body = LAYOUTS[layout](data)
+            assert ground == post["ground"], (n, layout)
+            name = "Main.dc.html" if (n == 1 and i == 0) else f"p{n:02d}-{i+1}-{layout.lower()}.dc.html"
+            stitle = f"{n:02d} · slide {i+1} · {layout}" if nslides > 1 else f"{n:02d} · {layout}"
+            with open(os.path.join(PROJ, name), "w") as f:
+                f.write(page(stitle, ground, body))
+            boards[name] = {"x": i * (W + GAP), "y": y, "w": W, "h": H, "title": stitle, "page": pg}
+            order.append(name)
+            count += 1
+        kind = "carousel" if nslides > 1 else "single"
+        hold = "  ·  HOLD" if post.get("hold") else ""
+        notes[f"t{n:02d}"] = {"x": 0, "y": y - 250, "text": f"{n:02d} · {post['date']} · {post['name']} · {post['ground']} {kind}{hold}",
+                              "kind": "title1", "maxW": 4 * W + 3 * GAP, "page": pg}
+        sx = nslides * (W + GAP)
+        notes[f"c{n:02d}"] = {"x": sx, "y": y, "w": 760, "maxH": 1300, "page": pg,
+                              "fill": "orange" if post.get("hold") else "yellow" if False else "green",
+                              "size": "l",
+                              "text": "CAPTION\n" + post["caption"] + ("\n\nBEFORE POSTING\n" + post["check"] if post.get("check") else "")}
 
-canvas = {"v": 3, "createdOnFiles": {"v": 1, "at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")},
-          "title": "Kuyy Business — First 30 Posts", "launch": {"view": "canvas", "page": "p1"}, "pages": pages,
-          "boards": boards, "order": order, "notes": notes,
-          "designSystems": [{"title": "Kuyy! Business Feed", "namespace": "kuyybusinessfeed",
-                             "artifact": "https://claude.ai/artifact/5BGcUdrHyrDg6PteKAdf3T",
-                             "version": "1790234215-5819",
-                             "copiedAt": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}]}
-with open(os.path.join(PROJ, "canvas.json"), "w") as f:
-    json.dump(canvas, f, ensure_ascii=False, indent=1)
-print("artboards", count)
+    canvas = {"v": 3, "createdOnFiles": {"v": 1, "at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")},
+              "title": "Kuyy Business — First 30 Posts", "launch": {"view": "canvas", "page": "p1"}, "pages": pages,
+              "boards": boards, "order": order, "notes": notes,
+              "designSystems": [{"title": "Kuyy! Business Feed", "namespace": "kuyybusinessfeed",
+                                 "artifact": "https://claude.ai/artifact/5BGcUdrHyrDg6PteKAdf3T",
+                                 "version": "1790234215-5819",
+                                 "copiedAt": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}]}
+    with open(os.path.join(PROJ, "canvas.json"), "w") as f:
+        json.dump(canvas, f, ensure_ascii=False, indent=1)
+    print("artboards", count)
+
+
+if __name__ == "__main__":
+    main()
