@@ -8,13 +8,13 @@ OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "canvas3", "proje
 os.makedirs(OUT, exist_ok=True)
 
 SLIDES = [
- ("MathCover", {"label": "New · Kuyy! Business", "h": ["Kuyy! books classes.", "Now it runs", "the studio too."],
-    "header": "KUYY! · WHAT IT DOES", "rows": [("Book classes", "yes"), ("Host activities", "yes"), ("Run a studio", "new")],
+ ("MathCover", {"label": "New · Kuyy! Business", "h": ["Clubs host on Kuyy!", "Now studios can", "run on it too."],
+    "header": "KUYY! · WHAT IT DOES", "rows": [("Host activities", "yes"), ("Book classes", "yes"), ("Run a studio", "new")],
     "total": "Oct 2026", "total_label": "Launch"}),
- ("LedgerCompare", {"title": ["One company,", "both sides of the class."], "cols": ["Kuyy! app", "Business"],
-    "rows": [("Who uses it", "Members", "Owners"), ("What it does", "Find, book", "Run, grow"), ("Where", "The app", "Dashboard")],
+ ("LedgerCompare", {"title": ["4,000+ communities", "host here. Now studios."], "cols": ["Kuyy! app", "Business"],
+    "rows": [("Who hosts", "Clubs", "Studios"), ("Who books", "Members", "Members"), ("What it does", "Host, fill", "Run, grow")],
     "total": ("Same marketplace", "300,000+"),
-    "source": ["Kuyy! registered users, Sep 2026."]}),
+    "source": ["Kuyy! public numbers: 4,000+ communities,", "300,000+ registered users, Sep 2026."]}),
  ("ClipboardSteps", {"title": ["Built to grow", "your studio"], "steps": [
     "Bookings, payments and passes in one dashboard.", "Members check in by QR.",
     "Your classes listed on the Kuyy! app.", "Revenue and attendance at a glance."]}),
@@ -22,8 +22,8 @@ SLIDES = [
     "items": [("30-day free trial", "Rp 0")], "total": "Rp 0", "pill": "Start free trial"}),
 ]
 
-CAPTION = ("Kuyy! has always been where people find and book classes. Kuyy! Business is the other half: "
-           "growth infrastructure for studios to run bookings, payments and members, and get found on the app. "
+CAPTION = ("Kuyy! grew with community hosts, like tennis clubs, who brought their members to the app. "
+           "Kuyy! Business opens the same marketplace to studios, with growth infrastructure to run bookings, payments and members. "
            "Start free trial at business.kuyy.id #kuyybusiness")
 
 NOTE = ("COLLAB POST · post from @kuyy.business, invite @kuyy.app as collaborator\n\n"
