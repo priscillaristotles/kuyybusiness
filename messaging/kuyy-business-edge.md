@@ -43,6 +43,16 @@ The edge is the combination of studio management and access to customer demand. 
 
 Competitor names stay in sales conversations, decks and DMs. On the feed, describe the alternative ("booking-only software", "a class marketplace") per the brand guideline. Most of the ClassPass-side messages lean on retention and pricing control, which the feed doesn't show yet: see "repeat customers" below.
 
+### What "built different" means against studio software (Priscilla, Oct 2026)
+
+Beyond access to demand, the concrete differences owners notice against Rezerv/Vibefam:
+
+1. **Hassle-free booking for members.** Rezerv's booking site makes members create an account (phone number, OTP, password) before they can book. Kuyy! lets them book as a guest, no account. Feed: "To book a class: sign up + OTP vs just book."
+2. **Usable reports and analytics.** Reports an owner can read at a glance, not data to export and sort. Feed: "Reports: spreadsheets vs at a glance." Show a real screen when possible; it proves this better than a claim.
+3. **Intuitive interface.** Show it (a real screen, a short task). Avoid "simplest" or "easiest".
+
+To name Rezerv on a slide (allowed only in a LedgerCompare): screenshot their member sign-up flow, note the date, and put "Rezerv member sign-up, checked [month year]" in the source line. Until then the column says "Booking software".
+
 ### Gap to fill
 
 **Repeat customers** ("keep them coming back") has no post yet. Candidates: passes, credits and memberships; rebooking through the studio's own link with no account; the studio keeping its member list and pricing. This is also the strongest ClassPass-side proof point.
