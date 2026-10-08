@@ -24,7 +24,7 @@ Priscilla's experience running Samasta Aerial shaped it: slow support and featur
 | **A connected customer journey** | Website, bookings, payments, memberships and customer information together, with less disconnected admin. | "In one platform" is fine; "all-in-one" is banned. |
 | **Built around Indonesian operations** | Local payment methods, support and workflows shaped by how studios here operate. | Fee claims need a dated source line. "Responsive support" needs something to back it (response time, hours) before it goes on a slide. |
 | **Shaped by real studio experience** | Product decisions reflect running classes, handling memberships and managing multiple branches. | Priscilla "helped build" it; she did not found Kuyy!. |
-| **More ways to fill capacity** | Marketplace exposure and optional promotions to help sell empty slots, alongside the management tools. | "Optional promotions" (flash sale) only once it is live, and only as an option the studio controls. |
+| **More ways to fill capacity** | Marketplace exposure and optional promotions to help sell empty slots, alongside the management tools. | Flash sale is live (confirmed Oct 2026). Always frame it as optional and studio-controlled: the studio picks the spots, the discount and the timing, and regular prices stay intact. No fill-rate or revenue numbers until there is real adoption data. |
 
 ### Headline line
 

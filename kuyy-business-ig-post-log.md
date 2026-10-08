@@ -23,7 +23,7 @@ One line per post: date · layout · type · ground · topic · status. The next
 - 16 Oct 2026 · FounderNote · single · mist · #19 Co-founder note (William) · planned (draft, needs name/role/approval)
 - 17 Oct 2026 · BigNumber · single · blue · #20 50+ cities · planned (ready)
 - 18 Oct 2026 · PriceSheet · single · mist · #21 Which plan fits you · planned (ready, confirm prices)
-- 19 Oct 2026 · The math · carousel 3 · blue · #22 Flash sale for empty spots · planned (hold: confirm feature live)
+- 19 Oct 2026 · The math · carousel 3 · blue · #22 Flash sale for empty spots · planned (feature live Oct 2026; check steps match)
 - 20 Oct 2026 · Studio case · carousel 4 · mist · #23 Case 04 padel or gym · planned (hold: studio + data)
 - 21 Oct 2026 · ProductScreen · single · blue · #24 Memberships, packs, vouchers · planned (hold: screenshot)
 - 22 Oct 2026 · FounderNote · single · mist · #25 Who answers support · planned (draft, needs person + approval)
