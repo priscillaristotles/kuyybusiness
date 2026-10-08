@@ -2,6 +2,34 @@
 
 Every @kuyy.business post carries at least one of these five. Written Oct 2026 from Priscilla's brief; check against the brand guideline's rules (approved numbers, no competitor names outside a sourced ledger, no exclamation marks).
 
+## Positioning (source of truth, Oct 2026)
+
+**Kuyy! Business brings your studio operations and customer growth together in one platform.**
+
+Kuyy! Business exists to help studios run smoothly, get discovered, and turn bookings into repeat customers. The connection between management and customer demand is the strongest differentiator: it is what Rezerv and Vibefam, as software-only tools, do not have. Local fit and responsive support strengthen that story; they do not replace it.
+
+### Why we created it
+
+Studio owners have two connected problems: running daily operations and filling their classes. Bookings, payments, schedules, memberships and customer conversations sit across different tools and WhatsApp chats. Even after adopting management software, owners still have to find customers on their own.
+
+Kuyy! already connected people with activities. Kuyy! Business is the next step: give the businesses serving those people the tools to manage the whole journey, from discovery and booking to payment and repeat visits.
+
+Priscilla's experience running Samasta Aerial shaped it: slow support and features that didn't fit how her studios operated, a near-decision to build her own system, and then joining Kuyy! to help build its business platform instead.
+
+### Why choose Kuyy! Business
+
+| Reason | What it means for a studio owner | Feed guardrail |
+|---|---|---|
+| **Management connected to discovery** | Run your studio while it is discoverable on Kuyy!'s existing consumer marketplace. | Lead with this. Visibility, never a fill-rate promise. |
+| **A connected customer journey** | Website, bookings, payments, memberships and customer information together, with less disconnected admin. | "In one platform" is fine; "all-in-one" is banned. |
+| **Built around Indonesian operations** | Local payment methods, support and workflows shaped by how studios here operate. | Fee claims need a dated source line. "Responsive support" needs something to back it (response time, hours) before it goes on a slide. |
+| **Shaped by real studio experience** | Product decisions reflect running classes, handling memberships and managing multiple branches. | Priscilla "helped build" it; she did not found Kuyy!. |
+| **More ways to fill capacity** | Marketplace exposure and optional promotions to help sell empty slots, alongside the management tools. | "Optional promotions" (flash sale) only once it is live, and only as an option the studio controls. |
+
+### How this maps to the five edges below
+
+The positioning is the "why"; the five edges are the proof points a post can show. Management + discovery = edges 1 and 2. Connected journey = edge 4 (own site, no app, no account) and edge 5 (simple). Indonesian operations = edge 3 (BCA VA fees).
+
 ## The five edges
 
 | # | Edge | Say it like this | Not like this |
