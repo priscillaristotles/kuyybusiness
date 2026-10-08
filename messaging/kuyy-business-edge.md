@@ -26,6 +26,27 @@ Priscilla's experience running Samasta Aerial shaped it: slow support and featur
 | **Shaped by real studio experience** | Product decisions reflect running classes, handling memberships and managing multiple branches. | Priscilla "helped build" it; she did not found Kuyy!. |
 | **More ways to fill capacity** | Marketplace exposure and optional promotions to help sell empty slots, alongside the management tools. | "Optional promotions" (flash sale) only once it is live, and only as an option the studio controls. |
 
+### Headline line
+
+**"Run your studio, reach new customers, and keep them coming back, all through one connected platform."**
+
+Use this as the default one-liner (captions, bio, pinned post 1). The shorter version, "Kuyy! Business brings your studio operations and customer growth together in one platform", still works where space is tight. Avoid turning it into "all-in-one" (banned word).
+
+### One edge, two sides: which to lead with
+
+The edge is the combination of studio management and access to customer demand. Which half to lead with depends on what the studio is comparing us to.
+
+| If the studio is comparing us to | Lead with | Sales message | On the feed, say it as |
+|---|---|---|---|
+| **Studio software** (Rezerv, Vibefam) | **Access to demand.** A consumer marketplace connected to their bookings and payments. Local support and Indonesian workflows back it up. | "Manage your studio, and help more customers discover it." | "Booking software, with demand built in." · "Your booking app should bring you customers." |
+| **A class marketplace** (ClassPass) | **Control and direct relationships.** The studio's own bookings, memberships, customer information and repeat business. Promotions for empty slots are optional and studio-controlled, so regular prices and the value of the class stay intact. | "Turn discovery into a lasting relationship with your studio." | "Your members, your prices." · "Fill empty spots without discounting every class." |
+
+Competitor names stay in sales conversations, decks and DMs. On the feed, describe the alternative ("booking-only software", "a class marketplace") per the brand guideline. Most of the ClassPass-side messages lean on retention and pricing control, which the feed doesn't show yet: see "repeat customers" below.
+
+### Gap to fill
+
+**Repeat customers** ("keep them coming back") has no post yet. Candidates: passes, credits and memberships; rebooking through the studio's own link with no account; the studio keeping its member list and pricing. This is also the strongest ClassPass-side proof point.
+
 ### How this maps to the five edges below
 
 The positioning is the "why"; the five edges are the proof points a post can show. Management + discovery = edges 1 and 2. Connected journey = edge 4 (own site, no app, no account) and edge 5 (simple). Indonesian operations = edge 3 (BCA VA fees).
